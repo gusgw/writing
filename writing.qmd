@@ -1,0 +1,31 @@
+---
+title: "Writing"
+toc: false
+number-sections: false
+colorlinks: true
+tbl-cap-location: bottom
+format:
+  pdf:
+    template: "compact.latex"
+    geometry:
+      - top=10mm
+      - bottom=10mm
+      - left=10mm
+      - right=10mm
+    papersize: a4
+    fontsize: 11pt
+    include-in-header: "header.tex"
+    include-before-body: "start.tex"
+---
+
+# Section
+
+## Chemistry
+
+Chemical notation is available: $\ce{H2O}$.
+
+## Mathematics
+
+$$
+\int\limits_{-\infty}^\infty \mathrm{d}x\, \exp\left(-\frac{1}{2}x^2\right)
+$$
