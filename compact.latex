@@ -224,13 +224,13 @@ $date$\\[0.1cm]
 $endif$
 
 $if(web)$
-\marginentry{url}$web$\\[0.1cm]
+url: $web$\\[0.1cm]
 $endif$
 $if(email)$
-\marginentry{email}$email$\\[0.1cm]
+email: $email$\\[0.1cm]
 $endif$
 $if(phone)$
-\marginentry{phone}$phone$\\
+phone: $phone$\\
 $endif$
 
 $if(address1)$
