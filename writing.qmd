@@ -6,6 +6,7 @@ colorlinks: true
 tbl-cap-location: bottom
 format:
   pdf:
+    pdf-engine: xelatex
     template: "compact.latex"
     geometry:
       - top=10mm
